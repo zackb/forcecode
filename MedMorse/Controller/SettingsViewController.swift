@@ -217,7 +217,7 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(SettingsCell.self, forCellReuseIdentifier: reuseIdentifier)
-
+        tableView.cellLayoutMarginsFollowReadableWidth = true
         return tableView
     }()
     
