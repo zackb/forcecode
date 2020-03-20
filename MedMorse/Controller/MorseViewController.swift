@@ -149,13 +149,15 @@ class MorseViewController: UIViewController, MorseViewDelegate {
         positionCodeView()
     }
     
-    @objc func shareTapped() {
+    @objc func shareTapped(_ sender: UIBarButtonItem) {
         if textView.text == "" {
             return
         }
-        // let items = [textView.text.replacingOccurrences(of: "_", with: " ")]
         let items = [textView.text!]
         let ac = UIActivityViewController(activityItems: items, applicationActivities: nil)
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            ac.popoverPresentationController?.barButtonItem = sender
+        }
         present(ac, animated: true)
     }
     
