@@ -137,6 +137,9 @@ class MorseViewController: UIViewController, MorseViewDelegate {
     @objc func settingsTapped() {
         // TODO: Make delegate and remove the viewWillAppear hack
         let settings = SettingsViewController()
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            settings.modalPresentationStyle = .fullScreen
+        }
         self.present(settings, animated: true, completion: nil)
     }
     
