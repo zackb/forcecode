@@ -17,8 +17,8 @@
 		14788C7A24072DE800A882CD /* MorseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788C7924072DE800A882CD /* MorseViewController.swift */; };
 		14788C7F24072DE900A882CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14788C7E24072DE900A882CD /* Assets.xcassets */; };
 		14788C8224072DE900A882CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14788C8024072DE900A882CD /* LaunchScreen.storyboard */; };
-		14788C8D24072DE900A882CD /* MedMorseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788C8C24072DE900A882CD /* MedMorseTests.swift */; };
-		14788C9824072DE900A882CD /* MedMorseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788C9724072DE900A882CD /* MedMorseUITests.swift */; };
+		14788C8D24072DE900A882CD /* ForceCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788C8C24072DE900A882CD /* ForceCodeTests.swift */; };
+		14788C9824072DE900A882CD /* ForceCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788C9724072DE900A882CD /* ForceCodeUITests.swift */; };
 		14788CA824072F6F00A882CD /* MorseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14788CA724072F6F00A882CD /* MorseView.swift */; };
 		1483097D240AF8AC00680010 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483097C240AF8AC00680010 /* SettingsCell.swift */; };
 		14830980240AF97F00680010 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483097F240AF97F00680010 /* Settings.swift */; };
@@ -31,14 +31,14 @@
 			containerPortal = 14788C6A24072DE800A882CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14788C7124072DE800A882CD;
-			remoteInfo = MedMorse;
+			remoteInfo = ForceCode;
 		};
 		14788C9424072DE900A882CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 14788C6A24072DE800A882CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14788C7124072DE800A882CD;
-			remoteInfo = MedMorse;
+			remoteInfo = ForceCode;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,11 +55,11 @@
 		14788C7E24072DE900A882CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14788C8124072DE900A882CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14788C8324072DE900A882CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14788C8824072DE900A882CD /* MedMorseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedMorseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14788C8C24072DE900A882CD /* MedMorseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedMorseTests.swift; sourceTree = "<group>"; };
+		14788C8824072DE900A882CD /* ForceCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14788C8C24072DE900A882CD /* ForceCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceCodeTests.swift; sourceTree = "<group>"; };
 		14788C8E24072DE900A882CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14788C9324072DE900A882CD /* MedMorseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedMorseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14788C9724072DE900A882CD /* MedMorseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedMorseUITests.swift; sourceTree = "<group>"; };
+		14788C9324072DE900A882CD /* ForceCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14788C9724072DE900A882CD /* ForceCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceCodeUITests.swift; sourceTree = "<group>"; };
 		14788C9924072DE900A882CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14788CA724072F6F00A882CD /* MorseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseView.swift; sourceTree = "<group>"; };
 		1483097C240AF8AC00680010 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		14788C6924072DE800A882CD = {
 			isa = PBXGroup;
 			children = (
-				14788C7424072DE800A882CD /* MedMorse */,
-				14788C8B24072DE900A882CD /* MedMorseTests */,
-				14788C9624072DE900A882CD /* MedMorseUITests */,
+				14788C7424072DE800A882CD /* ForceCode */,
+				14788C8B24072DE900A882CD /* ForceCodeTests */,
+				14788C9624072DE900A882CD /* ForceCodeUITests */,
 				14788C7324072DE800A882CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,13 +125,13 @@
 			isa = PBXGroup;
 			children = (
 				14788C7224072DE800A882CD /* ForceCode.app */,
-				14788C8824072DE900A882CD /* MedMorseTests.xctest */,
-				14788C9324072DE900A882CD /* MedMorseUITests.xctest */,
+				14788C8824072DE900A882CD /* ForceCodeTests.xctest */,
+				14788C9324072DE900A882CD /* ForceCodeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14788C7424072DE800A882CD /* MedMorse */ = {
+		14788C7424072DE800A882CD /* ForceCode */ = {
 			isa = PBXGroup;
 			children = (
 				1483097E240AF97400680010 /* Model */,
@@ -147,25 +147,25 @@
 				14788C8324072DE900A882CD /* Info.plist */,
 				14788C7E24072DE900A882CD /* Assets.xcassets */,
 			);
-			path = MedMorse;
+			path = ForceCode;
 			sourceTree = "<group>";
 		};
-		14788C8B24072DE900A882CD /* MedMorseTests */ = {
+		14788C8B24072DE900A882CD /* ForceCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				14788C8C24072DE900A882CD /* MedMorseTests.swift */,
+				14788C8C24072DE900A882CD /* ForceCodeTests.swift */,
 				14788C8E24072DE900A882CD /* Info.plist */,
 			);
-			path = MedMorseTests;
+			path = ForceCodeTests;
 			sourceTree = "<group>";
 		};
-		14788C9624072DE900A882CD /* MedMorseUITests */ = {
+		14788C9624072DE900A882CD /* ForceCodeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				14788C9724072DE900A882CD /* MedMorseUITests.swift */,
+				14788C9724072DE900A882CD /* ForceCodeUITests.swift */,
 				14788C9924072DE900A882CD /* Info.plist */,
 			);
-			path = MedMorseUITests;
+			path = ForceCodeUITests;
 			sourceTree = "<group>";
 		};
 		1483097E240AF97400680010 /* Model */ = {
@@ -179,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14788C7124072DE800A882CD /* MedMorse */ = {
+		14788C7124072DE800A882CD /* ForceCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14788C9C24072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorse" */;
+			buildConfigurationList = 14788C9C24072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCode" */;
 			buildPhases = (
 				14788C6E24072DE800A882CD /* Sources */,
 				14788C6F24072DE800A882CD /* Frameworks */,
@@ -191,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = MedMorse;
-			productName = MedMorse;
+			name = ForceCode;
+			productName = ForceCode;
 			productReference = 14788C7224072DE800A882CD /* ForceCode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14788C8724072DE900A882CD /* MedMorseTests */ = {
+		14788C8724072DE900A882CD /* ForceCodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14788C9F24072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorseTests" */;
+			buildConfigurationList = 14788C9F24072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCodeTests" */;
 			buildPhases = (
 				14788C8424072DE900A882CD /* Sources */,
 				14788C8524072DE900A882CD /* Frameworks */,
@@ -209,14 +209,14 @@
 			dependencies = (
 				14788C8A24072DE900A882CD /* PBXTargetDependency */,
 			);
-			name = MedMorseTests;
-			productName = MedMorseTests;
-			productReference = 14788C8824072DE900A882CD /* MedMorseTests.xctest */;
+			name = ForceCodeTests;
+			productName = ForceCodeTests;
+			productReference = 14788C8824072DE900A882CD /* ForceCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		14788C9224072DE900A882CD /* MedMorseUITests */ = {
+		14788C9224072DE900A882CD /* ForceCodeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14788CA224072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorseUITests" */;
+			buildConfigurationList = 14788CA224072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCodeUITests" */;
 			buildPhases = (
 				14788C8F24072DE900A882CD /* Sources */,
 				14788C9024072DE900A882CD /* Frameworks */,
@@ -227,9 +227,9 @@
 			dependencies = (
 				14788C9524072DE900A882CD /* PBXTargetDependency */,
 			);
-			name = MedMorseUITests;
-			productName = MedMorseUITests;
-			productReference = 14788C9324072DE900A882CD /* MedMorseUITests.xctest */;
+			name = ForceCodeUITests;
+			productName = ForceCodeUITests;
+			productReference = 14788C9324072DE900A882CD /* ForceCodeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -255,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14788C6D24072DE800A882CD /* Build configuration list for PBXProject "MedMorse" */;
+			buildConfigurationList = 14788C6D24072DE800A882CD /* Build configuration list for PBXProject "ForceCode" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -268,9 +268,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14788C7124072DE800A882CD /* MedMorse */,
-				14788C8724072DE900A882CD /* MedMorseTests */,
-				14788C9224072DE900A882CD /* MedMorseUITests */,
+				14788C7124072DE800A882CD /* ForceCode */,
+				14788C8724072DE900A882CD /* ForceCodeTests */,
+				14788C9224072DE900A882CD /* ForceCodeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14788C8D24072DE900A882CD /* MedMorseTests.swift in Sources */,
+				14788C8D24072DE900A882CD /* ForceCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14788C9824072DE900A882CD /* MedMorseUITests.swift in Sources */,
+				14788C9824072DE900A882CD /* ForceCodeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		14788C8A24072DE900A882CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14788C7124072DE800A882CD /* MedMorse */;
+			target = 14788C7124072DE800A882CD /* ForceCode */;
 			targetProxy = 14788C8924072DE900A882CD /* PBXContainerItemProxy */;
 		};
 		14788C9524072DE900A882CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14788C7124072DE800A882CD /* MedMorse */;
+			target = 14788C7124072DE800A882CD /* ForceCode */;
 			targetProxy = 14788C9424072DE900A882CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorse/Info.plist;
+				INFOPLIST_FILE = ForceCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorse/Info.plist;
+				INFOPLIST_FILE = ForceCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,18 +527,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorseTests/Info.plist;
+				INFOPLIST_FILE = ForceCodeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.MedMorseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.ForceCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedMorse.app/MedMorse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceCode.app/ForceCode";
 			};
 			name = Debug;
 		};
@@ -549,18 +549,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorseTests/Info.plist;
+				INFOPLIST_FILE = ForceCodeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.MedMorseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.ForceCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedMorse.app/MedMorse";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceCode.app/ForceCode";
 			};
 			name = Release;
 		};
@@ -570,17 +570,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorseUITests/Info.plist;
+				INFOPLIST_FILE = ForceCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.MedMorseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.ForceCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MedMorse;
+				TEST_TARGET_NAME = ForceCode;
 			};
 			name = Debug;
 		};
@@ -590,24 +590,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN376Y4X83;
-				INFOPLIST_FILE = MedMorseUITests/Info.plist;
+				INFOPLIST_FILE = ForceCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.MedMorseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeedup.ForceCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MedMorse;
+				TEST_TARGET_NAME = ForceCode;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14788C6D24072DE800A882CD /* Build configuration list for PBXProject "MedMorse" */ = {
+		14788C6D24072DE800A882CD /* Build configuration list for PBXProject "ForceCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14788C9A24072DE900A882CD /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14788C9C24072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorse" */ = {
+		14788C9C24072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14788C9D24072DE900A882CD /* Debug */,
@@ -625,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14788C9F24072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorseTests" */ = {
+		14788C9F24072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14788CA024072DE900A882CD /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14788CA224072DE900A882CD /* Build configuration list for PBXNativeTarget "MedMorseUITests" */ = {
+		14788CA224072DE900A882CD /* Build configuration list for PBXNativeTarget "ForceCodeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14788CA324072DE900A882CD /* Debug */,
